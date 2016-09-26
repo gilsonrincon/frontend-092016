@@ -1,0 +1,24 @@
+{
+  "name": "less-web",
+  "version": "1.0.0",
+  "description": "Este es un sitio Web basado en LESS y bootstrap, creado usando NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Gilson Rincón",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.12",
+    "gulp-less": "^3.1.0",
+    "merge-stream": "^1.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
